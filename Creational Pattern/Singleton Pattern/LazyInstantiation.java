@@ -7,8 +7,7 @@ class Shop {
     private Shop() {
     }
     
-// Compare to Early Instation program i just make the changes at here.
-
+     // Compare to Early Instation program i just make the changes at here.
     // In Lazy Instatiation we create object for class when it is called first time
     public static Shop getInstance() {
         // Check the object not created before 
@@ -48,8 +47,8 @@ yeah, you are right two object are created. So, solve this we use Synchronizatio
     }
 
    
-//  but using above method we have performance issue. So, solve that we use Double Check Locking method. 
-// In this method we just apply synchronized method divide into the sub part. See below Implementation
+# But using above method we have performance issue. So, solve that we use Double Check Locking method. 
+# In this method we just apply synchronized method divide into the sub part. See below Implementation
 
 public static Shop getInstance() {
         // Check the object not created before 
@@ -63,4 +62,4 @@ public static Shop getInstance() {
         return shopObj;
     }
 
-// Using this we avoid multithreading problem and also shortout performance issue
+# Using this we avoid multithreading problem and also shortout performance issue
