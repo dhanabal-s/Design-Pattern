@@ -16,7 +16,7 @@ We have class for online store called _Shop_. _Shop_ have a various methods and 
  
  **What happen?**
  
- So, every _seller and buyer_ have indiviual variable and methods of _Shop_. If customer enter the _Shop_ class it look like a fresh _shop_, which means _seller_ modified data's are not reflected to _buyer_. So, every customer enter the _Shop_ it shows empty _Shop_. It cause our _Store_ failure. To shortout this, we use the _Singleton Pattern_. Using _Singleton_ all other class access the _Shop_ through single object so, every changes in the _Shop_ is reflected to all _consumer's and producer's Shop object_.
+ Every _seller and buyer_ have indiviual variable and methods in _Shop_. If customer enter the _Shop_ class it look like a fresh _shop_, which means _seller_ modified data's are not reflected to _buyer_. So, every customer enter the _Shop_ it shows empty _Shop_. It cause our _Store_ failure. To shortout this, we use the _Singleton Pattern_. Using _Singleton_ all other class access the _Shop_ through single object so, every changes in the _Shop_ is reflected to all _consumer's and producer's Shop object_.
     
 **Steps to achieve Singleton Pattern**
     
