@@ -1,4 +1,3 @@
-package CreationalPattern.Singleton;
 
 // In this type we create the object when class is loaded
 public class EarlyInstatiation {
@@ -101,7 +100,7 @@ class Buyer {
 
     public void purchase(int productCount) {
         buyedProductCount = productCount;
-        shopObj.sell(productCount);
+        shopObj.buy(productCount);
     }
 
     public void displayPurchase() {
