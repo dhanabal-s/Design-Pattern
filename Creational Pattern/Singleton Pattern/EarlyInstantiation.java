@@ -1,6 +1,39 @@
 
 // In this type we create the object when class is loaded
-public class EarlyInstatiation {
+class Shop {
+
+    // we create object when class is loaded
+    private static Shop shopObj = new Shop();
+    private int totalProductCount = 0;
+
+    // Make a constructor as private to restrict another classes access the constructor
+    private Shop() {
+    }
+
+    public static Shop getInstance() {
+        return shopObj;
+    }
+
+    public void sell(int productCount) {
+
+        totalProductCount += productCount;
+    }
+
+    // I am just return a product count for understnding
+    public void shopDetails(){
+        System.out.println("Total Number of products in a shop:"+totalProductCount);
+    }
+
+    public void buy(int productCount) {
+        
+        totalProductCount -= productCount;
+    }
+    
+
+}
+
+///////////// sample implementation code
+public class EarlyInstantiation {
 
     public static void main(String[] args) {
 
@@ -33,36 +66,7 @@ public class EarlyInstatiation {
 
 }
 
-class Shop {
 
-    private static Shop shopObj = new Shop();
-    private int totalProductCount = 0;
-
-    // Make a constructor as private to restrict another classes access the constructor
-    private Shop() {
-    }
-
-    public static Shop getInstance() {
-        return shopObj;
-    }
-
-    public void sell(int productCount) {
-
-        totalProductCount += productCount;
-    }
-
-    // I am just return a product count for understnding
-    public void shopDetails(){
-        System.out.println("Total Number of products in a shop:"+totalProductCount);
-    }
-
-    public void buy(int productCount) {
-        
-        totalProductCount -= productCount;
-    }
-    
-
-}
 
 class Seller {
 
@@ -109,3 +113,5 @@ class Buyer {
     
     
 }
+
+ 
