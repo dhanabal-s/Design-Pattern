@@ -1,6 +1,6 @@
 # Singleton Pattern
 
-Singleton Pattern ensure, the class has **only one instance** and provide global point to access it.
+Singleton Pattern ensure the class has **only one instance** and provide global point to access it.
 
 # Problem 
 Just think about _online store_.
