@@ -11,7 +11,7 @@ public class EarlyInstatiation {
                 Seller seller = new Seller();
                 seller.addProduct(9);
                 seller.displaySelled();
-                //            we check the shop detail after add the peoducts in a shop
+                //  we check the shop detail after add the peoducts in a shop
                 seller.shopObj.shopDetails();
                 // Seller's other activities
                 break;
@@ -19,7 +19,7 @@ public class EarlyInstatiation {
                 Buyer buyer = new Buyer();
                 buyer.purchase(5);
                 buyer.displayPurchase();
-                //            we check the shop detail after make a purchase
+                // we check the shop detail after make a purchase
                 buyer.shopObj.shopDetails();
                 // Buyer's other activities
                 break;
