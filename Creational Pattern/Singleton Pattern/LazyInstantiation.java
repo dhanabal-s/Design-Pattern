@@ -33,9 +33,9 @@ class Shop {
     }
 }
 
-This Program runs clearly, but we have problem.
-Think about multithreading , what happen if two threads call getInstance() at same time.
-yeah, you are right two object are created. So, solve this we use Synchronization technique.
+# This Program runs clearly, but we have problem.
+# Think about multithreading , what happen if two threads call getInstance() at same time.
+# Yeah, you are right two object are created. So, solve this we use Synchronization technique.
 
     // just add synchronized keyword with method name getInstance
     synchronized public static Shop getInstance() {
