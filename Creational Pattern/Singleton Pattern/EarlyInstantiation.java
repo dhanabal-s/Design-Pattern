@@ -1,5 +1,5 @@
-
-// In this type we create the object when class is loaded
+# In this type we create the object when class is loaded
+    
 class Shop {
 
     // we create object when class is loaded
@@ -32,7 +32,8 @@ class Shop {
 
 }
 
-///////////// sample implementation code
+# Sample example implementation code
+
 public class EarlyInstantiation {
 
     public static void main(String[] args) {
@@ -57,10 +58,10 @@ public class EarlyInstantiation {
                 break;
         }
         
-//       here we check the shop detail using another buyer object
+        // Here we check the shop detail using another buyer object
         Buyer buyer2 = new Buyer();
         buyer2.shopObj.shopDetails();
-//        at the end every changes in a shop reflacted to a all customer's in a shop.
+       // At the end every changes in a shop reflacted to a all customer's in a shop.
 
     }
 
