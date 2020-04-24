@@ -1,4 +1,4 @@
-
+// Base interface
 interface Vehicle {
     void specification();
 }
@@ -39,6 +39,7 @@ class DieselBike implements Vehicle {
     
 }
 
+//Factory interface
 interface ShowRoom {
     Vehicle getVehicle(String vehicleType);
 }
