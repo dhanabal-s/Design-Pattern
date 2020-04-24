@@ -100,7 +100,7 @@ public class AbstractFactory {
         String vehicleType = new String("Bike");
         
         Vehicle vehicleObj = (ShowRoomFactory.getFactory(factoryType)).getVehicle(vehicleType);
-        # OR
+        # (OR)
         ShowRoom showObj = ShowRoomFactory.getFactory(factoryType);
         Vehicle vehicleObj = showObj.getVehicle(vehicleType);
         
