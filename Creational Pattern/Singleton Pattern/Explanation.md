@@ -2,7 +2,7 @@
 
 Singleton Pattern ensure the class has **only one instance** and provide global point to access it.
 
-# Problem 
+## Example 
 Just think about _online store_.
 
 It have two type of contributors,
