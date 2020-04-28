@@ -5,6 +5,6 @@ Abstract Factory Pattern is almost similar to Factory Pattern with one more abst
 
 For example, we have two or more _Factory classes(Factory Pattern)_ and we should choose one of them at runtime, at here _Abstract Factory_ helps to create one of them.
 
-# Example
-   We have a _ShowRoom_. In the _ShowRoom_ we have two segments. One is _PetrolEngineFactory_ and another one is _DieselEngineFactory_.
-In the both segments we have _Car and Bike segments_. If you want to see a _Car or Bike_, first you should choose that is  _PetrolEngine_ or _DieselEngine_ and then choose _Car or Bike_. At here, _PetrolEngineFactory_ is responsible for return the object of _PetrolCar or PetrolBike_. _DieselEngineFactory_ is responsible for return the object of _DieselCar or DieselBike_. Same as _ShowRoomFactory_ is responsible for return the object of _PetrolEngineFactory or DieselEngineFactory_. Here, We create the _Factory_ class for returning object of another _Factory_ , that's why we call itas an __*Abstract Factory Patter*__.
+## Example
+   Think we have a __*ShowRoom*__. In the __*ShowRoom*__ we have two segments. One is __*PetrolEngineFactory*__ and another one is __*DieselEngineFactory*__.
+In the both segments we have _Car and Bike segments_. If you want to see a _Car or Bike_, first you should choose that is  __*PetrolEngine*__ or _DieselEngine_,then can access any one of it. At here, we should assign resposibility to __*PetrolEngineFactory*__ to return the object of __*PetrolCar or PetrolBike*__, as well as __*DieselEngineFactory*__. Like __*PetrolEngineFactory*__, we should assign resposibility __*ShowRoomFactory*__ to return the object of __*PetrolEngineFactory or DieselEngineFactory*__. Here, We create the __*Factory*__ class called __*ShowRoom*__ for returning object of another __*Factory*__ , that's why we call itas an __*Abstract Factory Pattern*__.
