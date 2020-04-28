@@ -22,8 +22,8 @@ Under these three we have 23 Design Patterns.
  
  #### Types of Creational Patterns
  
- 1) Singleton  Pattern
- 2) Factory Pattern
+ 1) [Singleton  Pattern](https://github.com/DhanabalShanmugam/Design-Pattern/tree/master/Creational%20Pattern/Singleton%20Pattern)
+ 2) [Factory Pattern](https://github.com/DhanabalShanmugam/Design-Pattern/tree/master/Creational%20Pattern/Factory%20Pattern)
  3) Abstract Factory Pattern
  4) Builder Pattern
  5) Prototype Pattern
