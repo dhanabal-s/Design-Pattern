@@ -37,7 +37,7 @@ class Shop {
 # Think about multithreading , what happen if two threads call getInstance() at same time.
 # Yeah, you are right two object are created. Solve this, we use Synchronization technique.
 
-    // Sdd synchronized keyword with method name getInstance
+    // Add synchronized keyword with method name getInstance
     synchronized public static Shop getInstance() {
         // Check the object for, whether previously it created or not 
         if (shopObj == null) {
