@@ -7,10 +7,10 @@ class Shop {
     private Shop() {
     }
     
-     // Compare to Early Instantiation program, i just make the changes over here.
+     // Compare to Early Instantiation program, just make the changes over here.
     // In Lazy Instantiation, create object for class when it is called first time
     public static Shop getInstance() {
-        // Check the object not created before 
+        // Check the object for, whether previously it created or not 
         if(shopObj == null) {
             shopObj = new Shop();
         }
@@ -22,7 +22,7 @@ class Shop {
         totalProductCount += productCount;
     }
 
-    // just return a product count for understnding
+    // Return a product count 
     public void shopDetails(){
         System.out.println("Total Number of products in a shop:"+totalProductCount);
     }
@@ -33,13 +33,13 @@ class Shop {
     }
 }
 
-# This Program runs clearly, but we have problem.
+# This Program runs clearly, but we had issue some issues.
 # Think about multithreading , what happen if two threads call getInstance() at same time.
 # Yeah, you are right two object are created. Solve this, we use Synchronization technique.
 
-    // just add synchronized keyword with method name getInstance
+    // Sdd synchronized keyword with method name getInstance
     synchronized public static Shop getInstance() {
-        // Check the object not created before 
+        // Check the object for, whether previously it created or not 
         if (shopObj == null) {
             shopObj = new Shop();
         }
@@ -51,7 +51,7 @@ class Shop {
 # In below, just apply synchronized method divide into the sub part.
 
 public static Shop getInstance() {
-        // Check the object, if it not created before 
+        // Check the object for, whether previously it created or not 
         if (shopObj == null) {
            synchronized(Shop.class){
              if(shopObj == null){
