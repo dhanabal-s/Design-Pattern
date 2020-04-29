@@ -1,10 +1,10 @@
-// This is the client class
+# Client class
 public class FactoryPattern {
 
   
     public static void main(String[] args) {
         
-        // I just used bus for sample run
+        // select bus for testing
         String travelBy= new String("Bus");
         
         // Client get the object specific travel class by calling Factory class
