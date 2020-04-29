@@ -7,7 +7,7 @@ public class PrototypePattern {
         
         //Cloning the Object from call the clone method
         Fighter fighter = (Fighter)cloner.clone();
-        //clone 2nd fighter
+        //Create 2nd fighter
         Fighter fighter2 = (Fighter)cloner.clone();
         //change fighter looks
         fighter2.changeColor("Block");
