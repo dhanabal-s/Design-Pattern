@@ -2,7 +2,7 @@
     
 class Shop {
 
-    // create object when class is loaded
+    // Create object when class is loaded
     private static Shop shopObj = new Shop();
     private int totalProductCount = 0;
 
@@ -19,7 +19,7 @@ class Shop {
         totalProductCount += productCount;
     }
 
-    // code for understanding the singleton pattern
+    // Code for understanding the singleton pattern
     public void shopDetails(){
         System.out.println("Total Number of products in a shop:"+totalProductCount);
     }
@@ -32,8 +32,7 @@ class Shop {
 
 }
 
-# Sample example implementation code
-
+# Sample implementation code
 public class EarlyInstantiation {
 
     public static void main(String[] args) {
