@@ -44,7 +44,7 @@ interface ShowRoom {
     Vehicle getVehicle(String vehicleType);
 }
 
-//it returns specific class item in a petrol factory
+//It returns the specific class object in a petrol factory
 class PetrolFactory implements ShowRoom {
 
     @Override
@@ -61,7 +61,7 @@ class PetrolFactory implements ShowRoom {
     
 }
 
-//it returns specific class item in a diesel factory
+//It returns the specific class object in a diesel factory
 class DieselFactory implements ShowRoom {
 
     @Override
@@ -77,7 +77,7 @@ class DieselFactory implements ShowRoom {
     
 }
 
-// it returns specific factory object
+//It returns specific factory object
 class ShowRoomFactory {
     
     public static ShowRoom getFactory(String factoryType) {
@@ -96,7 +96,7 @@ public class AbstractFactory {
     
     public static void main(String[] args) {
         
-        //for example access bike in a diesel factory
+        //Create the DieselBike for testing
         String factoryType = new String("Diesel");
         String vehicleType = new String("Bike");
         
