@@ -2,7 +2,7 @@
     
 class Shop {
 
-    // we create object when class is loaded
+    // create object when class is loaded
     private static Shop shopObj = new Shop();
     private int totalProductCount = 0;
 
@@ -19,7 +19,7 @@ class Shop {
         totalProductCount += productCount;
     }
 
-    // I am just return a product count for understnding
+    // code for understanding the singleton pattern
     public void shopDetails(){
         System.out.println("Total Number of products in a shop:"+totalProductCount);
     }
@@ -44,7 +44,7 @@ public class EarlyInstantiation {
                 Seller seller = new Seller();
                 seller.addProduct(9);
                 seller.displaySelled();
-                //  we check the shop detail after add the peoducts in a shop
+                // Check the shop detail, after add the peoducts in a shop
                 seller.shopObj.shopDetails();
                 // Seller's other activities
                 break;
@@ -52,13 +52,13 @@ public class EarlyInstantiation {
                 Buyer buyer = new Buyer();
                 buyer.purchase(5);
                 buyer.displayPurchase();
-                // we check the shop detail after make a purchase
+                // Check the shop detail, after make a purchase
                 buyer.shopObj.shopDetails();
                 // Buyer's other activities
                 break;
         }
         
-        // Here we check the shop detail using another buyer object
+        // Check the shop detail using another buyer object
         Buyer buyer2 = new Buyer();
         buyer2.shopObj.shopDetails();
        // At the end every changes in a shop reflacted to a all customer's in a shop.
