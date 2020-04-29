@@ -33,7 +33,7 @@ class Shop {
     }
 }
 
-# This Program runs clearly, but we had issue some issues.
+# This Program runs clearly, but we had some issues.
 # Think about multithreading , what happen if two threads call getInstance() at same time.
 # Yeah, you are right two object are created. Solve this, we use Synchronization technique.
 
@@ -62,4 +62,4 @@ public static Shop getInstance() {
         return shopObj;
     }
 
-# Using this, avoid multithreading problem and performance issue.
+# Using this, we can avoid multithreading problem and performance issue.
