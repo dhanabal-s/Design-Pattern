@@ -12,7 +12,7 @@ It have two type of contributors,
     
 We have class for online store called _Shop_. _Shop_ have a various methods and varibles like _addProduct(), sellProduct(), productCategory, totalProducts and etc_.
     
- Just imagine we allocate a new _Shop object (or) instance_ for a each and every _seller and buyer_.
+ Just imagine, class give a new _Shop instance_ for a each and every _seller and buyer_.
  
  **What happen?**
  
