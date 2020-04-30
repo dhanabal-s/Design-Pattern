@@ -1,7 +1,7 @@
 public class BuilderPattern {
 
     public static void main(String[] args) {
-//        Build the person Detail in step by step approach. 
+         // Build the person Detail. 
         PersonDetails personDetail = (new BuildDetails()).setfName("John").setlName("Son").setAge(20).getPersonDetails();
         System.out.println(personDetail.toString());
     }
@@ -59,7 +59,7 @@ class BuildDetails {
         this.personDetails.education = education;
         return this;
     }
-// other variables setting methods
+// Methods for other variables
     
     public PersonDetails getPersonDetails() {
         return personDetails;
