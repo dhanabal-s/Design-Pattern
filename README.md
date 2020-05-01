@@ -10,9 +10,9 @@ Gang Of Four peoples design those Design Pattern under the two main principles.
 
 ## Types of Design Patterns
 
-  1) [Creational Design Patterns](https://github.com/DhanabalShanmugam/Design-Pattern/tree/master/Creational%20Pattern) 
-  2) Structural Design Patterns
-  3) Behavioral Design Patterns
+  1) [Creational Patterns](https://github.com/DhanabalShanmugam/Design-Pattern/tree/master/Creational%20Pattern) 
+  2) [Structural Patterns](https://github.com/DhanabalShanmugam/Design-Pattern/tree/master/Structural%20Patterns/Adapter%20Pattern)
+  3) Behavioral Patterns
   
 Under these three we have 23 Design Patterns.
 
