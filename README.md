@@ -34,8 +34,8 @@ Structural patterns explain how to assemble objects and classes into larger stru
 
 #### Types of Structural Patterns
 
-1) Adapter Pattern
-2) Bridge Pattern
+1) [Adapter Pattern](https://github.com/DhanabalShanmugam/Design-Pattern/tree/master/Structural%20Patterns/Adapter%20Pattern)
+2) [Bridge Pattern](https://github.com/DhanabalShanmugam/Design-Pattern/tree/master/Structural%20Patterns/Bridge%20Pattern)
 3) Composite Pattern
 4) Decorator Pattern
 5) Facade Pattern
