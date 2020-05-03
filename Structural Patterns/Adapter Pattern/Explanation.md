@@ -8,4 +8,4 @@ __*How to connect tham?*__
 
 Yes, you're right. __*Adapter*__.
 
-So, to connect __*Dragon*__ and __*Bird*__ classes we class create adapter class. which give you flexibility to access the __*Bird*__ class methods through class the __*Dragon*__ object. For, better understanding see the implementation.
+To connect __*Dragon*__ and __*Bird*__ classes we create a class called __*Adapter*__. which give you flexibility to access the __*Bird*__ class methods through class the __*Dragon*__ object. For, better understanding see the implementation.
