@@ -8,5 +8,5 @@ __*What you do to connect us plugin on indian plug point?*__
 
 Yes, you're right. __*Adapter*__.
 
-Same concept we useing here. Create new class(like Adapter), which convert interface of a class into another interface. 
+Same concept we using here. Create new class(like Adapter), which convert interface of a class into another interface. 
 So we connect __*Dragon*__ and __*Bird*__ classes through new class called __*Adapter*__. which give you flexibility to access the __*Bird*__ class methods through class the __*Dragon*__ object. For, better understanding see the implementation.
