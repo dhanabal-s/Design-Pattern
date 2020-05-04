@@ -35,9 +35,11 @@ public class Bird implements BirdInterface {
 // Adapter class, which have both Bird and Dragon class methods
 class FlyingDragon implements DragonInterface  {
     BirdInterface flyingDragon;
+    Dragon dragon;
     // Constructure of Flying Dragon
     FlyingDragon (BirdInterface obj){
         flyingDragon = obj;
+        dragon = new Dragon();
     }
 
     @Override
@@ -49,7 +51,7 @@ class FlyingDragon implements DragonInterface  {
     @Override
     // Call's Dragon's fire() method
     public void fire() {
-        System.out.println("Flying dragon fires");
+        dragon.fire();
     }
     
 }
