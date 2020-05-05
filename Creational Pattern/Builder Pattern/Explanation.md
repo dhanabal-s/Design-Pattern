@@ -1,4 +1,5 @@
 # Builder Pattern
+Builder pattern aims to “Separate the construction of a complex object from its representation so that the same construction process can create different representations.”
 Using Builder Pattern, we can create complex object using simple objects through a step by step approach. This enables us to create multiple representations using the same construction process.
 
 * While Considering the builder pattern you need to look weather the object is having
