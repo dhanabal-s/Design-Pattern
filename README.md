@@ -18,7 +18,7 @@ Under these three we have 23 Design Patterns.
 
 ### Creational Patterns
   
- Creational Design Pattern Deals with the Object creation. It helps to solve problems in obejct creations in different situations.
+ Creational Design Pattern Deals with the Object creation. It helps to solve problems in object creations in different situations.
  
  #### Types of Creational Patterns
  
