@@ -7,7 +7,7 @@ Decorator design patterns allow us to add functionality to an object at runtime,
 ## Example
 Suppose, you are building a __*Pizza*__ ordering application. In it, you have to derive multiple classes for differnent type of Pizza's.
 
-At now, you are derived a classes for Pizza's. Think, in the application user can specify the ingredient by own(like add extra cheese or toppings). But, they have to pay for all of the additional thing.
+At now, you are derived a classes for Pizza's. Think, in the application user can specify the ingredient by their own(like add extra cheese or toppings). But, they have to pay for all of the additional thing.
 
 __How do you calculate the price?__
 
