@@ -13,9 +13,9 @@ __How do you calculate the price?__
 
 Now, you are thing just define the variable for all ingredients and calculate the price.
 
-But, we have a problem in it. what you do, if anyone or more ingredients price is change or you should add new ingredient. You have to change the existing code. But, It is not perferable way. Because it need more effects and you should need  to know the working of the full code in under the class.
+But, we have a problem in it. What you do, if you have to change one or more ingredients price or adding new ingredient. In this situation, you have to change the existing code for the changes. But, It is not a good and perferable way. Because, it needs more effective and you have to know the working of the full code under the class.
 
-Using Decorator pattern we add additional responsibilities to the class without affecting existing code.
+Using, Decorator pattern we add additional responsibilities to the class without affecting existing code.
 
 Just split the different functionality of class into different classes.
 
