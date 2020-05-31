@@ -9,7 +9,7 @@ Suppose, We build a __*Pizza*__ ordering application(like zomato). In it, you ha
 
 At now, you are derived a classes for Pizza's. Think, in the application user can specify the ingredient by own(like add extra cheese or toppings). But, they have to pay for all of the additional thing.
 
-__How you calculate the price?__
+__How do you calculate the price?__
 
 Now, you are thing just define the variable for all ingredients and calculate the price.
 
