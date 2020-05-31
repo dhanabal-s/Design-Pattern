@@ -37,7 +37,7 @@ Structural patterns explain how to assemble objects and classes into larger stru
 1) [Adapter Pattern](https://github.com/DhanabalShanmugam/Design-Pattern/tree/master/Structural%20Patterns/Adapter%20Pattern)
 2) [Bridge Pattern](https://github.com/DhanabalShanmugam/Design-Pattern/tree/master/Structural%20Patterns/Bridge%20Pattern)
 3) Composite Pattern
-4) Decorator Pattern
+4) [Decorator Pattern](https://github.com/DhanabalShanmugam/Design-Pattern/tree/master/Structural%20Patterns/Decorator%20Pattern)
 5) Facade Pattern
 6) Flyweight Pattern
 7) proxy Pattern
